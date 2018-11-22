@@ -1,0 +1,749 @@
+h1,h2,h3,h4,h5,h6,a,span,ul,li,span,input{ margin: 0; padding: 0;}
+
+.linkss ul li a{ color: #ffffff !important; font-family: raleway !important; font-size:17px !important; font-weight: 500 !important;}
+.linkss ul li{ padding: 0 2px}
+.linkss ul li a.active{ color: #f44102 !important}
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.centered h1{ font-family: raleway !important; font-size: 32px !important; color:#fff !important; text-transform: uppercase}
+.centered span{  color:#fff !important; font-size: 17px; font-weight: 600;}
+.centered p{ color:#fff !important;text-align: center;font-family: raleway;}
+.ff{background:#f44102;border:none;color:#fff; font-weight: 600; font-family: raleway;}
+.services{padding: 0px 0}
+.services h1{ text-align: center; font-family: raleway;padding-top: 40px !important; padding:0px; margin: 0px;font-size:41px; font-weight: normal; padding: 35px 0 0px 0; color: #58433a}
+.services h2{ text-align: center; padding:0px; margin: 0px;}
+.service-image{ margin-top: 20px;}
+.service-image img{ width: 540px;height: 277px;}
+.service-text{ margin-top: 20px;margin-left: 20px;}
+.service-text h1{ font-size:26px; text-align: left; color:#58433a;font-weight: 600;padding: 10px 0;}
+.feature{ padding: 25px 0;}
+.feature h1{ text-align: center}
+.feauture-product{padding: 5px 0}
+.feauture-product ul{list-style: none;}
+.feauture-product ul li { float: left; width: 25%; }
+.feauture-product span{ text-align: center; display: block; color: #57433a; font-weight: 600}
+.feauture-product strong{ text-align: center; display: block; font-size: 18px;color: #f44102; font-weight: 600; padding: 5px 0}
+.feauture-product a{ width: 200px;line-height: 30px; text-decoration: none; text-align: center; margin:0 auto;background-color: #171310; display: block; color: #fff}
+.changeColor{
+    background-color: rgb(0, 3, 5);
+    transition: 0.3s;
+  }
+  .page_title {
+    padding-top: 75px;
+    color: #fff;
+}
+.embed-responsive-16by9::before {
+    padding-top: 0;
+}
+.ed_video img {
+    width: 640px;
+    height: 342px;
+}
+.ed_video_section_discription {
+    padding-top: 30px;
+}
+.ed_parallax_section.pro_about_video {
+    padding-bottom: 70px;
+}
+  .imm{ padding: 40px 0}
+  .imm img{ width: 305px;height: 261px;}
+  .imm h1{ font-size: 26px;}
+  .imm span{ font-size: 18px;}
+  .view {
+    margin: 44px auto; width: 100%;
+}
+.view a{ background-color: #f44102; margin: 0 auto; color:#fff; width: 268px; line-height: 49px; text-align: center; display: block}
+.newsletter{}
+.newsletter h1{ font-size: 41px; font-family: raleway; color: #fff}
+.newsletter p{color: #fff;font-size: 18px; font-family: raleway; text-align: center;}
+.newsletter a{ background-color: #f44102; color: #fff; text-decoration: none;font-weight: 600; width:202px; line-height: 43px;margin: 20px auto; display: block }
+footer.page-footer.font-small.unique-color-dark {
+    background-color: #1a1c28;
+    padding-top: 5px;
+}
+.fixed-top{background-color: rgba(0, 3, 5, 0.849); }
+section.team-section.text-center {
+    padding-bottom: 45px;
+}
+.col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4 a {
+    color: #fff;
+}
+.feauture-product img {
+    width: 222px;
+    height: 292px;
+}
+.footer-copyright.text-center.py-3 {
+    background: #26293a; text-align: left !important;
+}
+.row{ margin: 0 !important}
+@media only screen and (min-width:320px) and (max-width:480px){
+    nav#mainNav {
+        background: rgb(0,0,0,0.8) !important;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        text-align: center;
+    }
+    .service-image img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0 !important;
+    }
+    .feauture-product ul li {
+        float: left;
+        width: 100%;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+    }
+    .login {
+        background-size: cover !important;
+    }
+    .help{background-size: cover !important;}
+    .services h1{padding: 0px 0 0px 0;}
+    }
+
+
+    h3.belowT {
+      font-size: 20px;
+      letter-spacing: 3.5px;
+      color: white;
+      font-weight: 100;
+  }
+  .PageHowItWorks-roleSwitcher {
+    margin-bottom: 4px;
+    margin-top: 100px;
+    text-align: center;
+}
+.PageHowItWorks-roleSwitcher-title {
+    font-size: 32px;
+    line-height: 1.33;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.SectionFeature {
+    padding-bottom:50px;
+    position: relative;
+}
+.Grid--verticalCenter {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.SectionFeature-heading {
+    font-weight:700;
+    font-size: 2rem;
+    line-height: 1.37;
+}
+.SectionFeature-body {
+     font-size: 1rem;
+    line-height: 1.5;
+}
+.Grid-col--desktopSmall-5 {
+    -ms-flex-preferred-size: 41.66666667%;
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+}
+.Grid-col {
+    padding: 0 12px;
+}
+.Container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.PageHowItWorks-image {
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 100%;
+    width: auto;
+}
+.btn-primary {
+    background: linear-gradient(to bottom,#fc8c14 0,#f77d0e 100%);
+    border: 1px solid #f77d0e;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+}
+
+button.btn.btn-warning {
+    padding: 12px 49px;
+    color: #fff;
+    font-weight: 600;
+    background: #f77d0e;
+    font-size: 18px;
+}
+.how-section1 {
+    margin-top: 0%;
+    padding: 0 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+
+
+ 
+ 
+/**
+* Grid
+*
+* The grid system in Freelancer is a 12 column based Flexbox grid system.
+*
+* The grid system follows the same concept as Bootstrap 4's implementation
+* of the grid system in flexbox. If you're familiar with the Bootstrap's
+* grid system usage, then you'll be able to pick up the concepts of the grid
+* system in no time.
+*
+* Styleguide Grid System - Grid
+*/
+
+/**
+* Parent Container and Basic Grid Usage
+*
+* Every usage of the Grid needs to start off with a `.Grid` class first to
+* encapsulate all the columns inside.
+*
+* Columns use `.Grid-col` combined with the size of the column from 1 to 12
+* using `.Grid-col--[column size]`. Bear in mind all columns are 12 columns
+* in width by default if you don't specify the size.
+*
+* Columns also overflow to the next row with the columns filling in from
+* left to right.
+*
+* Markup: grid-simple.html
+*
+* Styleguide Grid System - Grid - Basic
+*/
+
+/**
+* Grid Columns in Different Breakpoints
+*
+* Just like the Bootstrap grid system, we have different classes to set
+* different column sizes on different breakpoints.
+*
+* The syntax is `.Grid-col--[breakpoint name]-[column size]` where
+* the breakpoint name is a camel case version of the naming convention we
+* have for breakpoints.
+*
+* You can stack the breakpoint classes together to get different behaviours
+* on different breakpoints.
+*
+* Try resizing the browser to see the behaviours below.
+*
+* Markup: grid-breakpoints.html
+*
+* Styleguide Grid System - Grid - Breakpoints
+*/
+
+/**
+* Grid Container Modifiers
+*
+* The grid container `.Grid` class allow modifiers as well.
+*
+* * `.Grid--horizontalCenter`: allows you to center the grid. This is useful
+*   when you want to center the grid in general. Usually with Bootstrap you
+*   offsset the grid but this modifier eliminates the use of offsets entirely.
+* * `.Grid--horizontalRight`: puts the whole grid to the right side.
+* * `.Grid--verticalCenter`: centers the whole grid vertically.
+* * `.Grid--verticalStretch`: stretches the grid columns vertically so they
+*   are the same height.
+* * `.Grid--overflow`: makes the grid not overflow to the next row. Rarely
+*   you want to use this.
+*
+* Markup: grid-container-modifiers.html
+*
+* Styleguide Grid System - Grid - Container Modifiers
+*/
+
+/**
+* Grid Column Modifiers
+*
+* The grid columns have modifiers for other things apart from the column sizes.
+*
+* * `.Grid-col--flushRight`: puts the grid column flush to the right, adding
+*   as much space as possible between the column and the column before it.
+* * `.Grid-col--flushLeft`: same as `.Grid-col--flushRight` but flushes to the
+*   left instead. Useful for reversed layouts.
+* * `.Grid-col--flexContainer`: makes the grid column a flex container.
+*
+* Markup: grid-column-modifiers.html
+*
+* Styleguide Grid System - Grid - Grid Column Modifiers
+*/
+
+/**
+* Grid Full Frame
+*
+* The grid system can stretch to the entire browser viewport with
+* `.Grid--frame`.
+*
+* Markup: grid-full-frame.html
+*
+* Styleguide Grid System - Grid - Grid Full Frame
+*/
+
+@import (reference) "theme/variables.less";
+
+.Grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin: 0 -@spacing-xsmall;
+
+    @media (min-width: @breakpoint-tablet) {
+        margin: 0 -@spacing-mid / 2;
+    }
+
+    &--horizontalCenter {
+        justify-content: center;
+    }
+
+    &--horizontalRight {
+        justify-content: flex-end;
+
+        &.Grid--overflow > .Grid-col {
+            /* IE sucks at overflowing a justify-content: flex-end to the right,
+               instead doing it to the left. Let's do a graceful fallback to
+               shrink the columns so it fits instead. */
+            -ms-flex-negative: 1;
+        }
+    }
+
+    &--verticalBottom {
+        align-items: flex-end;
+    }
+
+    &--verticalCenter {
+        align-items: center;
+    }
+
+    &--verticalStretch {
+        align-items: stretch;
+    }
+
+    &--overflow {
+        flex-flow: row nowrap;
+    }
+
+    &--frame {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    /* Columns */
+    &-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 @spacing-xsmall;
+
+        @media (min-width: @breakpoint-tablet) {
+            padding: 0 @spacing-mid / 2;
+        }
+
+        &--1 {
+            flex-basis: (100% / 12 * 1);
+            max-width: (100% / 12 * 1);
+        }
+
+        &--2 {
+            flex-basis: (100% / 12 * 2);
+            max-width: (100% / 12 * 2);
+        }
+
+        &--3 {
+            flex-basis: (100% / 12 * 3);
+            max-width: (100% / 12 * 3);
+        }
+
+        &--4 {
+            flex-basis: (100% / 12 * 4);
+            max-width: (100% / 12 * 4);
+        }
+
+        &--5 {
+            flex-basis: (100% / 12 * 5);
+            max-width: (100% / 12 * 5);
+        }
+
+        &--6 {
+            flex-basis: (100% / 12 * 6);
+            max-width: (100% / 12 * 6);
+        }
+
+        &--7 {
+            flex-basis: (100% / 12 * 7);
+            max-width: (100% / 12 * 7);
+        }
+
+        &--8 {
+            flex-basis: (100% / 12 * 8);
+            max-width: (100% / 12 * 8);
+        }
+
+        &--9 {
+            flex-basis: (100% / 12 * 9);
+            max-width: (100% / 12 * 9);
+        }
+
+        &--10 {
+            flex-basis: (100% / 12 * 10);
+            max-width: (100% / 12 * 10);
+        }
+
+        &--11 {
+            flex-basis: (100% / 12 * 11);
+            max-width: (100% / 12 * 11);
+        }
+
+        &--12 {
+            flex-basis: (100% / 12 * 12);
+            max-width: (100% / 12 * 12);
+        }
+
+        /* Column ordering */
+        &--order-1 {
+            order: 1;
+        }
+
+        &--order-2 {
+            order: 2;
+        }
+
+        &--order-3 {
+            order: 3;
+        }
+
+        /* Tablet breakpoint columns */
+        @media (min-width: @breakpoint-tablet) {
+            &--tablet {
+                &-1 {
+                    flex-basis: (100% / 12 * 1);
+                    max-width: (100% / 12 * 1);
+                }
+
+                &-2 {
+                    flex-basis: (100% / 12 * 2);
+                    max-width: (100% / 12 * 2);
+                }
+
+                &-3 {
+                    flex-basis: (100% / 12 * 3);
+                    max-width: (100% / 12 * 3);
+                }
+
+                &-4 {
+                    flex-basis: (100% / 12 * 4);
+                    max-width: (100% / 12 * 4);
+                }
+
+                &-5 {
+                    flex-basis: (100% / 12 * 5);
+                    max-width: (100% / 12 * 5);
+                }
+
+                &-6 {
+                    flex-basis: (100% / 12 * 6);
+                    max-width: (100% / 12 * 6);
+                }
+
+                &-7 {
+                    flex-basis: (100% / 12 * 7);
+                    max-width: (100% / 12 * 7);
+                }
+
+                &-8 {
+                    flex-basis: (100% / 12 * 8);
+                    max-width: (100% / 12 * 8);
+                }
+
+                &-9 {
+                    flex-basis: (100% / 12 * 9);
+                    max-width: (100% / 12 * 9);
+                }
+
+                &-10 {
+                    flex-basis: (100% / 12 * 10);
+                    max-width: (100% / 12 * 10);
+                }
+
+                &-11 {
+                    flex-basis: (100% / 12 * 11);
+                    max-width: (100% / 12 * 11);
+                }
+
+                &-12 {
+                    flex-basis: (100% / 12 * 12);
+                    max-width: (100% / 12 * 12);
+                }
+            }
+
+            /* Column ordering */
+            &--tabletOrder {
+                &-1 {
+                    order: 1;
+                }
+
+                &-2 {
+                    order: 2;
+                }
+
+                &-3 {
+                    order: 3;
+                }
+            }
+        }
+
+        /* Desktop small breakpoint columns */
+        @media (min-width: @breakpoint-desktop-small) {
+            &--desktopSmall {
+                &-1 {
+                    flex-basis: (100% / 12 * 1);
+                    max-width: (100% / 12 * 1);
+                }
+
+                &-2 {
+                    flex-basis: (100% / 12 * 2);
+                    max-width: (100% / 12 * 2);
+                }
+
+                &-3 {
+                    flex-basis: (100% / 12 * 3);
+                    max-width: (100% / 12 * 3);
+                }
+
+                &-4 {
+                    flex-basis: (100% / 12 * 4);
+                    max-width: (100% / 12 * 4);
+                }
+
+                &-5 {
+                    flex-basis: (100% / 12 * 5);
+                    max-width: (100% / 12 * 5);
+                }
+
+                &-6 {
+                    flex-basis: (100% / 12 * 6);
+                    max-width: (100% / 12 * 6);
+                }
+
+                &-7 {
+                    flex-basis: (100% / 12 * 7);
+                    max-width: (100% / 12 * 7);
+                }
+
+                &-8 {
+                    flex-basis: (100% / 12 * 8);
+                    max-width: (100% / 12 * 8);
+                }
+
+                &-9 {
+                    flex-basis: (100% / 12 * 9);
+                    max-width: (100% / 12 * 9);
+                }
+
+                &-10 {
+                    flex-basis: (100% / 12 * 10);
+                    max-width: (100% / 12 * 10);
+                }
+
+                &-11 {
+                    flex-basis: (100% / 12 * 11);
+                    max-width: (100% / 12 * 11);
+                }
+
+                &-12 {
+                    flex-basis: (100% / 12 * 12);
+                    max-width: (100% / 12 * 12);
+                }
+            }
+
+            /* Column ordering */
+            &--desktopSmallOrder {
+                &-1 {
+                    order: 1;
+                }
+
+                &-2 {
+                    order: 2;
+                }
+
+                &-3 {
+                    order: 3;
+                }
+            }
+        }
+
+        /* Desktop large breakpoint columns */
+        @media (min-width: @breakpoint-desktop-large) {
+            &--desktopLarge {
+                &-1 {
+                    flex-basis: (100% / 12 * 1);
+                    max-width: (100% / 12 * 1);
+                }
+
+                &-2 {
+                    flex-basis: (100% / 12 * 2);
+                    max-width: (100% / 12 * 2);
+                }
+
+                &-3 {
+                    flex-basis: (100% / 12 * 3);
+                    max-width: (100% / 12 * 3);
+                }
+
+                &-4 {
+                    flex-basis: (100% / 12 * 4);
+                    max-width: (100% / 12 * 4);
+                }
+
+                &-5 {
+                    flex-basis: (100% / 12 * 5);
+                    max-width: (100% / 12 * 5);
+                }
+
+                &-6 {
+                    flex-basis: (100% / 12 * 6);
+                    max-width: (100% / 12 * 6);
+                }
+
+                &-7 {
+                    flex-basis: (100% / 12 * 7);
+                    max-width: (100% / 12 * 7);
+                }
+
+                &-8 {
+                    flex-basis: (100% / 12 * 8);
+                    max-width: (100% / 12 * 8);
+                }
+
+                &-9 {
+                    flex-basis: (100% / 12 * 9);
+                    max-width: (100% / 12 * 9);
+                }
+
+                &-10 {
+                    flex-basis: (100% / 12 * 10);
+                    max-width: (100% / 12 * 10);
+                }
+
+                &-11 {
+                    flex-basis: (100% / 12 * 11);
+                    max-width: (100% / 12 * 11);
+                }
+
+                &-12 {
+                    flex-basis: (100% / 12 * 12);
+                    max-width: (100% / 12 * 12);
+                }
+            }
+
+            /* Column ordering */
+            &--desktopLargeOrder {
+                &-1 {
+                    order: 1;
+                }
+
+                &-2 {
+                    order: 2;
+                }
+
+                &-3 {
+                    order: 3;
+                }
+            }
+        }
+
+        &--flushRight {
+            margin-left: auto;
+        }
+
+        &--flushLeft {
+            margin-right: auto;
+        }
+
+        &--flexContainer {
+            display: flex;
+        }
+    }
+}
+#content .container {
+   position: relative;
+   z-index: 2;
+}
+.quote-container-homepage {
+   padding-top: 60px;
+   padding-bottom: 30px;
+}
+.mid-three-uni-quote-col {
+   padding-left: 70px;
+}
+.concept-page-mid-one-odd-image {
+   margin-top: 50px;
+}
+.mid-one-style {
+   margin: 20px 0;
+}
+.concept-page-mid-one-odd-image {
+   margin-top: 50px;
+}
+.PageHowItWorks-feature-title {
+   font-size: 20px;
+   font-size: 1.25rem;
+   line-height: 1.4;
+   font-weight: 700;
+   padding: 0 120px;
+}
+.SectionFeature-content--center {
+   text-align: center;
+}
+.bg-light {
+    background-color: #fff !important;
+    padding-right: 13px !important;
+}
+
+h2.h-custom-headline.cs-ta-center.h2 {
+    padding-top: 20px;
+}
+i.fa.fa-user.text-primary {
+    color: #f44102 !important;
+}
+i.fa.fa-envelope.text-primary {
+    color: #f44102 !important;
+}
+i.fa.fa-tag.prefix.text-primary {
+    color: #f44102 !important;
+}
+i.fa.fa-pencil.text-primary {
+    color: #f44102 !important;
+}
+a.bg-primary.px-3.py-2.rounded.text-white.mb-2.d-inline-block {
+    background: #f44102 !important;
+}
+.my-5 {
+    margin: 0 !important;
+}
+
+
+ 

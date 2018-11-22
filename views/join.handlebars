@@ -1,0 +1,137 @@
+{{!-- <link rel="stylesheet" href="/css/style2.css"> 
+
+<div class="row">
+<div class="login" style="width:100%;background: url(/img/library.png) center top no-repeat; background-size:100%;">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5" style="margin-top:100px !important;margin-bottom: 2rem !important;">
+          <div class="card-body" >
+            <h5 class="card-title text-center" style="font-weight:500">Join Us For Free!!</h5>
+            {{#if user}}
+        <div class="alert alert-danger">Username has taken already try new</div> 
+{{/if}}
+{{#if mail}}
+        <div class="alert alert-danger">Email has taken already try new</div> 
+{{/if}} 
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+            <form method="POST" action="/users/Join" class="form-signin">
+
+              
+                <div class="form-group">
+       <label>First Name</label>
+       <input type="text" class="form-control" placeholder="Enter your First Name here" name="FirstName" data-validation="length"  data-validation-length="max20" data-validation="custom" data-validation-regexp="^([a-z]+)$" data-validation-error-msg="Please enter valid name">
+   </div>
+             <div class="form-group">
+       <label>Last Name</label>
+       <input type="text" class="form-control" placeholder="Enter your Last Name here" name="LastName"  data-validation="length"  data-validation-length="max20" data-validation="custom" data-validation-regexp="^([a-z]+)$" data-validation-error-msg="Please enter valid name">
+   </div>
+   <div class="form-group">
+       <label>Email</label>
+       <input type="text" class="form-control" placeholder="Email" name="email" data-validation="email"  data-validation-error-msg="You did not enter a valid e-mail"  >
+   </div>
+   <div class="form-group">
+       <label>Password</label>
+       <input type="password" class="form-control" placeholder="Password" name="password_confirmation" data-validation="strength" 
+		 data-validation-strength="4" data-validation-length="min6">
+   </div>
+   <div class="form-group">
+       <label>Confirm Password</label>
+       <input type="password" class="form-control" placeholder="Password" name="password" data-validation="confirmation">
+   </div>
+   <button type="submit" class="btn btn-default" style="background:#f44102;color:#fff;text-transform:uppercase">Submit</button>
+
+          </form>
+           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script>
+ 
+    $.validate({
+      
+    modules : 'security',
+    onModulesLoaded : function() {
+ 
+      // Show strength of password
+      $('input[name="password_confirmation"]').displayPasswordStrength();
+ 
+      // Bind card type to card number validator
+      $('#card').on('change', function() {
+        var card = $(this).val();
+        $('input[name="password"]').attr('data-validation-allowing', card);
+      });
+    }
+  });
+</script>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> --}}
+
+  
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area bg-image--6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump__inner text-center">
+                        	<h2 class="bradcaump-title">Join</h2>
+                            <nav class="bradcaump-content">
+                              <a class="breadcrumb_item" href="/">Home</a>
+                              <span class="brd-separetor">/</span>
+                              <span class="breadcrumb_item active">Join</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Bradcaump area -->
+		<!-- Start My Account Area -->
+		<section class="my_account_area pt--80 pb--55 bg--white">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-3"></div>
+					<div class="col-lg-6 col-12">
+						<div class="my__account__wrapper">
+							<h3 class="account__title">Register</h3>
+							<form action="#">
+								<div class="account__form">
+									<div class="input__box">
+										<label>First Name <span>*</span></label>
+										<input type="text" class="form-control" id="usr">
+									</div>
+									<div class="input__box">
+										<label>Last Name<span>*</span></label>
+										<input type="text" class="form-control" id="usr">
+									</div>
+									<div class="input__box">
+										<label>Email<span>*</span></label>
+										<input type="Email">
+									</div>
+									<div class="input__box">
+										<label>Password<span>*</span></label>
+										<input type="password">
+									</div>
+									<div class="input__box">
+										<label>Confirm Password<span>*</span></label>
+										<input type="password">
+									</div>
+									<div class="form__btn">
+										<button>Register</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End My Account Area -->
+
+		
+	</div>
+	<!-- //Main wrapper -->
