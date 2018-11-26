@@ -14,18 +14,23 @@ background-color: #46a1de;
 }
 
 .wrapper {
-  min-width: 600px;
-  max-width: 900px;
+  /* min-width: 600px; */
+  max-width: 100%;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 160px; 
+  padding-bottom: 160px;
+  background-image: url(/img/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tabs {
   display: table;
   table-layout: fixed;
-  width: 100%;
+  width: 50%;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
+  margin-left: 70px;
 }
 .tabs > li {
   transition-duration: .25s;
@@ -69,8 +74,9 @@ background-color: #46a1de;
 .tab__content {
   background-color: white;
   position: relative;
-  width: 100%;
+  width: 50%;
   border-radius: 5px;
+  margin-left: 70px;
 }
 .tab__content > li {
   width: 100%;
@@ -155,8 +161,12 @@ input.form-control {
     position: relative;
 }
 
+.main-affi{
+  padding-left: 65px;
+}
+
 .affi-logo{
 
   padding: 15px;
-  
+  width: 150px;
 }
