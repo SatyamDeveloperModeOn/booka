@@ -17,6 +17,7 @@ background-color: #46a1de;
   min-width: 600px;
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 60px;
 }
 
 .tabs {
@@ -152,4 +153,10 @@ input.form-control {
     background-color: #ff5308;
     border-color: #ff5308;
     position: relative;
+}
+
+.affi-logo{
+
+  padding: 15px;
+  
 }
