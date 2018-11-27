@@ -1882,8 +1882,8 @@ Header Styles
 	  display: flex;
 	  font-size: 15px;
     font-weight: 300;
-    letter-spacing: 1px;
-	  padding: 0 23px;
+    letter-spacing: .5px;
+	  padding: 0 15px;
 	  text-transform: uppercase;
 	  transition: all 0.4s ease 0s;
 	}
