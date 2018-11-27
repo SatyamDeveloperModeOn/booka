@@ -1881,7 +1881,8 @@ Header Styles
 	  color: #fff;
 	  display: flex;
 	  font-size: 15px;
-	  font-weight: 600;
+    font-weight: 300;
+    letter-spacing: 1px;
 	  padding: 0 23px;
 	  text-transform: uppercase;
 	  transition: all 0.4s ease 0s;
