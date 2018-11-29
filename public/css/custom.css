@@ -195,3 +195,35 @@ input.form-control {
   font-weight: 400;
   letter-spacing: 1px;
 }
+
+h5.rent-custom {
+  margin: 10px;
+}
+li.rent-custom-li {
+  margin: 10px;
+}
+
+h2.title__be--2.rent-custom-li {
+  margin-bottom: 40px;
+}
+.cutom-h5{
+  font-weight: 500;
+  color: #333333;
+}
+
+ul.custom-ul{
+  list-style: square;
+  margin: 50px;
+}
+
+.section__title.text-center.custom-h5-about {
+  max-width: 900px;
+}
+textarea#comment {
+  width: 76%;
+  margin-left: 68px;
+}
+input[type=submit].btn-block {
+  width: 76%;
+  margin-left: 68px;
+}
