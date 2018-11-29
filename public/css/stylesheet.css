@@ -1,0 +1,72 @@
+.slider{
+	background-image: url(../img/contact-banner.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	
+}
+.slider{
+	padding:150px 0 150px 0;
+}
+.slider h3{
+	
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight:700;
+}
+
+.contactUs h3{
+	font-family: 'Poppins', sans-serif;
+	color:#000;
+	font-size:30px;
+	text-transform:uppercase;
+	padding-bottom:20px;
+	font-weight:700;
+	padding-top: 50px;
+}
+.contactUs h2{margin-bottom:30px; margin-top:0;}
+.contactUs h2::before {
+
+    content: '';
+    position: absolute;
+    width: 52px;
+    height: 2px;
+    background: #ec4933;
+    top: 12%;
+    left:inherit;
+
+}
+
+.contactUs span{
+	color:#ff5308;
+	
+}
+.contactUs{
+	margin-bottom:50px;
+}
+
+.contactUs .col-md-6{margin-top:50px; overflow:auto;}
+
+.contactUs .btn-info{
+	border-radius:0px;
+    color: #fff;
+    background-color: #ff5308;
+    border-color: #ff5308;
+
+}
+.contactUs ul{padding:0;}
+.socialMedia{list-style: none;}
+.socialMedia li{float:left; padding-right:36px;}
+.address li {
+    list-style: none;
+    line-height: 34px;
+}
+.address li i{color:#ff5308;}
+.socialMedia li i{color:#bfbfbf;}
+.form-control{border-radius:0;}
+
+.contactBottum a{color:#ff5308;}
+.contactBottum a,.contactBottum span{padding:5px;}
+.contactBottum span{color:#fff;}

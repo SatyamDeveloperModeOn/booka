@@ -81,7 +81,7 @@ router.get('/Rent', function (req, res) {
 
 // contact 
 router.get('/Contact', function (req, res) {
-    res.render('Contact');
+    res.render('contact');
 });
 
 // about
