@@ -90,23 +90,23 @@ app.use(function (req, res, next) {
 app.use('/', routes);
 app.use('/users', users);
 
-// catch 404 and forward to error handler
-// app.use(function (req, res, next) {
-//   var err = new Error('File Not Found');
-//   err.status = 404;
-//   next(err);
-// });
-// // error handler
-// // define as the last app.use callback
-// app.use(function (err, req, res, next) {
-//   res.status(err.status || 500);
-//   res.render('404');
-// });
+//catch 404 and forward to error handler
+app.use(function (req, res, next) {
+  var err = new Error('File Not Found');
+  err.status = 404;
+  next(err);
+});
+// error handler
+// define as the last app.use callback
+app.use(function (err, req, res, next) {
+  res.status(err.status || 500);
+  res.render('404');
+});
 
 
 
 // Set Port
-app.set('port', (process.env.PORT || 80));
+app.set('port', (process.env.PORT || 443));
 
 app.listen(app.get('port'), function(){
 	console.log('Server started on port '+app.get('port'));
