@@ -8,12 +8,8 @@ var flash = require('connect-flash');
 var session = require('express-session');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-//var mongo = require('mongodb');
-//var mongoose = require('mongoose');
 
 
-//mongoose.connect('mongodb://localhost/bookabyte');
-//var db = mongoose.connection;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -69,7 +65,32 @@ app.use(expressValidator({
   }
 }));
 
+// Login Routes
 
+app.get("/login", function(req, res){
+  res.render("login");
+})
+
+// middleware
+app.post("/login", passport.authenticate("local",{
+  successRedirect:"/secret",
+  failureRedirect:"/login"
+}),function(req, res){
+  res.send("User is "+ req.user.id);
+});
+
+app.get("/logout", function(req, res){
+  req.logout();
+  res.redirect("/");
+});
+
+
+function isLoggedIn(req, res, next){
+  if(req.isAuthenticated()){
+      return next();
+  }
+  res.redirect("/login");
+}
 
 
 

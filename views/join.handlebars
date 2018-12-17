@@ -1,3 +1,4 @@
+
 {{!-- <link rel="stylesheet" href="/css/style2.css"> 
 
 <div class="row">
@@ -98,27 +99,27 @@
 					<div class="col-lg-6 col-12">
 						<div class="my__account__wrapper">
 							<h3 class="account__title">Register</h3>
-							<form action="#">
+							<form action="/users/join" method="post">
 								<div class="account__form">
 									<div class="input__box">
 										<label>First Name <span>*</span></label>
-										<input type="text" class="form-control" id="usr">
+										<input type="text" class="form-control" name="fname">
 									</div>
 									<div class="input__box">
 										<label>Last Name<span>*</span></label>
-										<input type="text" class="form-control" id="usr">
+										<input type="text" class="form-control" id="usr" name="lname">
 									</div>
 									<div class="input__box">
 										<label>Email<span>*</span></label>
-										<input type="Email">
+										<input type="Email" name="email">
 									</div>
 									<div class="input__box">
 										<label>Password<span>*</span></label>
-										<input type="password">
+										<input type="password" name="pass">
 									</div>
 									<div class="input__box">
 										<label>Confirm Password<span>*</span></label>
-										<input type="password">
+										<input type="password" name="cpass">
 									</div>
 									<div class="form__btn">
 										<button>Register</button>
