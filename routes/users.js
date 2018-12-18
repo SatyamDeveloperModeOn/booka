@@ -52,34 +52,24 @@ router.post('/join', function(req, res, next) {
       });
     });
   
-    req.check('item.email', 'Invalid email address').isEmail();
-    req.check('item.pass', 'Password is invalid').isLength({min: 4}).equals(req.body.cpass);
-  
-    var errors = req.validationErrors();
-    if (errors) {
-      req.session.errors = errors;
-      req.session.success = false;
-    } else {
-      req.session.success = true;
-    }
-    res.redirect('/users/join');
+    res.redirect('/users/login');
   });
 
   //express-validation
 
-  router.post('/users/join', function(req, res, next) {
-    req.check('email', 'Invalid email address').isEmail();
-    req.check('pass', 'Password is invalid').isLength({min: 4}).equals(req.body.cpass);
+  //   router.post('/users/join', function(req, res, next) {
+  //   req.check('email', 'Invalid email address').isEmail();
+  //   req.check('pass', 'Password is invalid').isLength({min: 4}).equals(req.body.cpass);
   
-    var errors = req.validationErrors();
-    if (errors) {
-      req.session.errors = errors;
-      req.session.success = false;
-    } else {
-      req.session.success = true;
-    }
-    res.redirect('/users/join');
-  });
+  //   var errors = req.validationErrors();
+  //   if (errors) {
+  //     req.session.errors = errors;
+  //     req.session.success = false;
+  //   } else {
+  //     req.session.success = true;
+  //   }
+  //   res.redirect('/users/join');
+  // });
 
 
 
